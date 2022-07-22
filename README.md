@@ -9,4 +9,6 @@ Then run it.
 ```zsh
 sudo ./MinGW.sh
 ```
+After it's done, run TheFatRat's `setup.sh` file again, and it should work for the MinGW part.
+
 Any problems with the script please let me know.
