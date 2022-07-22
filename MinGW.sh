@@ -38,8 +38,5 @@ sleep 1
 
 echo "All Done!"
 sleep 2
-clear
 
 exit 0
-
-fi
