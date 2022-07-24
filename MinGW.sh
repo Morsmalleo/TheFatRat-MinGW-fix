@@ -16,6 +16,8 @@ apt-get install xterm -y
 # grab the Kali Jessie keys from GitHub
 git clone https://GitHub.com/Morsmalleo/Kali-Jessie-Keys
 mv Kali-Jessie-Keys/{debian-archive-jessie-stable.gpg,debian-archive-jessie-security.gpg,debian-archive-jessie-automatic.gpg} /etc/apt/trusted.gpg.d
+# remove the now empty Jessie keys folder
+rm -rf Kali-Jessie-Keys
 # Create a jessie.list file containing the older software 
 # Debian Jessie software Repo
 # then activates said software repo by running an update
