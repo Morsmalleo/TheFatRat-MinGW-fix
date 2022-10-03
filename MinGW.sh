@@ -27,7 +27,7 @@ xterm -t " Updating Repositories Debian Jessie " -geometry 100x30 -- "apt-get up
 sleep 1
         
         # installs an older package from the older software repo added by the code above
-	apt-get install mingw-w64* mingw32* -y
+	apt-get install -t jessie mingw-w64* mingw32* -y
 
 // Removes the Jessie repo and jessie.list file and updates original APT repositories 
 echo " Removing Repositories Debian Jessie  " rm -f /etc/apt/sources.list.d/jessie.list
