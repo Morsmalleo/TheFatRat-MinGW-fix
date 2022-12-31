@@ -5,7 +5,7 @@ Give the file executable permissions.
 ```zsh
 sudo chmod +x MinGW.sh
 ```
-Then run it.
+Then run it, it doesnt matter where you run it either.
 ```zsh
 sudo ./MinGW.sh
 ```
